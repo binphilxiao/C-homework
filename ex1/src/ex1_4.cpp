@@ -7,7 +7,7 @@ int main(void){
 	cin>>a>>b;
 	sum=a+b;
 	product=a*b;
-	cout<<"The sum is"<<sum<<endl;
-	cout<<"The product is"<<product<<endl;
+	cout<<"The sum is"<<sum<<'\n'
+            <<"The product is"<<product<<endl;
 	return 0;
 }

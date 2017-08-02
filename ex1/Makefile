@@ -14,7 +14,10 @@ ex1_3 : $(SRC)/ex1_3.cpp
 ex1_4 : $(SRC)/ex1_4.cpp
 	$(CC) -o $(OBJ)/ex1_4 $(SRC)/ex1_4.cpp
 
+ex1_9 : $(SRC)/ex1_9.cpp
+	$(CC) -o $(OBJ)/ex1_9 $(SRC)/ex1_9.cpp
+
 clean:
 	rm $(OBJ)/*
 
-all: ex1_1 ex1_2 ex1_3 ex1_4
+all: ex1_1 ex1_2 ex1_3 ex1_4 ex1_9
